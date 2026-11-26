@@ -1,0 +1,20 @@
+DATASET SOURCE AND ACCESS INSTRUCTIONS
+==================================================
+
+1. Dataset Name: 
+   Cell Images for Detecting Malaria (NIH / Kaggle)
+
+2. Official Source & Download Link:
+   - Platform: Kaggle
+   - Repository Reference: iarunava/cell-images-for-detecting-malaria
+   - URL: https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria
+
+3. Dataset Description:
+   - Total Samples: 27,558 cell images (evenly split between parasitized and uninfected cells).
+   - Input Features: RGB cell images resized to 64x64 pixels.
+   - Output Classes: Binary classification (0 = Parasitized, 1 = Uninfected).
+
+4. Instructions for Evaluators to Obtain/Verify Data:
+   If you wish to run the training notebook or reproduce the evaluation metrics:
+   - Option A (Kaggle API): Ensure you have your kaggle.json credentials configured, or run the notebook provided in 03_Model_Code which utilizes kagglehub to automatically download the dataset.
+   - Option B (Manual Download): Visit the URL above, download the ZIP archive manually from Kaggle, and extract it to your local environment under /kaggle/input/cell-images-for-detecting-malaria/ or update the BASE_PATH variable in app.py / Jupyter Notebook accordingly.
